@@ -7,7 +7,7 @@ Fork from https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/
 
 ## 该项目主要是来自pytorch官方torchvision模块中的源码
 * https://github.com/pytorch/vision/tree/master/torchvision/models/detection
-二、环境配置
+* 
 ## 环境配置：
 * Python3.6/3.7/3.8
 * Pytorch1.6(注意：必须是1.6.0或以上，因为使用官方提供的混合精度训练1.6.0后才支持)
@@ -15,14 +15,14 @@ Fork from https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/
 * Ubuntu或Centos(不建议Windows)
 * 最好使用GPU训练
 * 详细环境配置见```requirements.txt```
-#1、安装 虚拟环境
+# 1、安装 虚拟环境
 conda create -n yh_frcnn python=3.6
 conda activate yh_frcnn
 conda install pysocks
-安装（注意版本、在pytorch官网查询对应版本安装命令）
+# 安装（注意版本、在pytorch官网查询对应版本安装命令）
 conda install pytorch=1.8.1 torchvision=0.9.1 cudatoolkit=10.1 -c pytorch
-安装requirements.txt对应环境
-进入服务器算法所在目录 使用cd命令
+# 安装requirements.txt对应环境
+# 进入服务器算法所在目录 使用cd命令
 pip install -r requirements.txt
 
 ## 文件结构：
