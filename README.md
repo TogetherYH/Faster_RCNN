@@ -1,7 +1,7 @@
 # Faster_RCNN
 Faster_RCNN教程
 一、源码下载：
-源码来自于：https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_object_detection/faster_rcnn
+*源码来自于：https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_object_detection/faster_rcnn
 
 ## 该项目主要是来自pytorch官方torchvision模块中的源码
 * https://github.com/pytorch/vision/tree/master/torchvision/models/detection
@@ -13,14 +13,14 @@ Faster_RCNN教程
 * Ubuntu或Centos(不建议Windows)
 * 最好使用GPU训练
 * 详细环境配置见```requirements.txt```
-1、安装 虚拟环境
+*1、安装 虚拟环境
 conda create -n yh_frcnn python=3.6
 conda activate yh_frcnn
 conda install pysocks
-安装（注意版本、在pytorch官网查询对应版本安装命令）
+*安装（注意版本、在pytorch官网查询对应版本安装命令）
 conda install pytorch=1.8.1 torchvision=0.9.1 cudatoolkit=10.1 -c pytorch
-安装requirements.txt对应环境
-进入服务器算法所在目录 使用cd命令
+*安装requirements.txt对应环境
+*进入服务器算法所在目录 使用cd命令
 pip install -r requirements.txt
 
 ## 文件结构：
