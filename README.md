@@ -1,7 +1,9 @@
 # Faster_RCNN
 Faster_RCNN教程
 一、源码下载：
-*源码来自于：https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_object_detection/faster_rcnn
+*源码来自于：https://github.com/TogetherYH/Faster_RCNN/tree/main/faster_rcnn
+Fork from https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_object_detection/faster_rcnn
+
 
 ## 该项目主要是来自pytorch官方torchvision模块中的源码
 * https://github.com/pytorch/vision/tree/master/torchvision/models/detection
@@ -13,14 +15,14 @@ Faster_RCNN教程
 * Ubuntu或Centos(不建议Windows)
 * 最好使用GPU训练
 * 详细环境配置见```requirements.txt```
-*1、安装 虚拟环境
+#1、安装 虚拟环境
 conda create -n yh_frcnn python=3.6
 conda activate yh_frcnn
 conda install pysocks
-*安装（注意版本、在pytorch官网查询对应版本安装命令）
+安装（注意版本、在pytorch官网查询对应版本安装命令）
 conda install pytorch=1.8.1 torchvision=0.9.1 cudatoolkit=10.1 -c pytorch
-*安装requirements.txt对应环境
-*进入服务器算法所在目录 使用cd命令
+安装requirements.txt对应环境
+进入服务器算法所在目录 使用cd命令
 pip install -r requirements.txt
 
 ## 文件结构：
@@ -65,15 +67,7 @@ pip install -r requirements.txt
 * 在使用预测脚本时，要将'train_weights'设置为你自己生成的权重路径。
 * 使用validation文件时，注意确保你的验证集或者测试集中必须包含每个类别的目标，并且使用时只需要修改'--num-classes'、'--data-path'和'--weights'即可，其他代码尽量不要改动
 
-## 如果对Faster RCNN原理不是很理解可参考我的bilibili
-* https://b23.tv/sXcBSP
-
-## 进一步了解该项目，以及对Faster RCNN代码的分析可参考我的bilibili
-* https://b23.tv/HvMiDy
 
 ## Faster RCNN框架图
-![Faster R-CNN](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/raw/master/pytorch_object_detection/faster_rcnn/fasterRCNN.png) 
+![Faster R-CNN](https://github.com/TogetherYH/Faster_RCNN/blob/main/faster_rcnn/fasterRCNN.png) 
 
-附录：
-## B站 
-* https://www.bilibili.com/video/BV1of4y1m7nj?p=1&vd_source=9b86751f474dfe164c80a4ab79e01753）
