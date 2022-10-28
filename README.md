@@ -1,7 +1,7 @@
 # Faster_RCNN
 Faster_RCNN教程
 ## 一、源码下载：
-* 源码来自于：https://github.com/TogetherYH/Faster_RCNN/tree/main/faster_rcnn
+* 源码：https://github.com/TogetherYH/Faster_RCNN/tree/main/faster_rcnn
 * Fork from https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_object_detection/faster_rcnn
 
 
