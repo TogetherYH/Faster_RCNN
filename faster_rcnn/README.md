@@ -1,13 +1,13 @@
 # Faster_RCNN
 Faster_RCNN教程
 ## 一、源码下载：
-*源码来自于：https://github.com/TogetherYH/Faster_RCNN/tree/main/faster_rcnn
-Fork from https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_object_detection/faster_rcnn
+* 源码：https://github.com/TogetherYH/Faster_RCNN/tree/main/faster_rcnn
+* Fork from https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_object_detection/faster_rcnn
 
 
 ## 该项目主要是来自pytorch官方torchvision模块中的源码
 * https://github.com/pytorch/vision/tree/master/torchvision/models/detection
-* 
+ 
 ## 环境配置：
 * Python3.6/3.7/3.8
 * Pytorch1.6(注意：必须是1.6.0或以上，因为使用官方提供的混合精度训练1.6.0后才支持)
